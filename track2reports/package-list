@@ -30,3 +30,7 @@ com.azure.security.keyvault.keys.models
 com.azure.security.keyvault.keys.models.webkey
 com.azure.security.keyvault.secrets
 com.azure.security.keyvault.secrets.models
+com.azure.storage.blob
+com.azure.storage.blob.models
+com.azure.storage.common.credentials
+com.azure.storage.common.policy
