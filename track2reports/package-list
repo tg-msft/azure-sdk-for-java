@@ -25,6 +25,7 @@ com.azure.data.appconfiguration.policy
 com.azure.identity
 com.azure.identity.credential
 com.azure.messaging.eventhubs
+com.azure.messaging.eventhubs.models
 com.azure.security.keyvault.keys
 com.azure.security.keyvault.keys.models
 com.azure.security.keyvault.keys.models.webkey
