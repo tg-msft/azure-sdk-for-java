@@ -39,30 +39,17 @@
 
   <!-- Repositories definitions -->
   <repositories>
-    <repository>
-      <id>ossrh</id>
-      <name>Sonatype Snapshots</name>
-      <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
-      <layout>default</layout>
-      <snapshots>
-        <enabled>true</enabled>
-        <updatePolicy>daily</updatePolicy>
-      </snapshots>
-    </repository>
+<repository>
+  <id>dev-azure-com-azure-sdk-azure-sdk-dependencies</id>
+  <url>https://pkgs.dev.azure.com/azure-sdk/_packaging/azure-sdk-dependencies/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>false</enabled>
+  </snapshots>
+</repository>
   </repositories>
-
-  <pluginRepositories>
-    <pluginRepository>
-      <id>ossrh</id>
-      <name>Sonatype Snapshots</name>
-      <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
-      <layout>default</layout>
-      <snapshots>
-        <enabled>true</enabled>
-        <updatePolicy>always</updatePolicy>
-      </snapshots>
-    </pluginRepository>
-  </pluginRepositories>
 
   <distributionManagement>
     <snapshotRepository>
