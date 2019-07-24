@@ -38,6 +38,20 @@
     </developer>
   </developers>
 
+  <!-- Repositories definitions -->
+  <repositories>
+    <repository>
+      <id>dev-azure-com-azure-sdk-azure-sdk-dependencies</id>
+      <url>https://pkgs.dev.azure.com/azure-sdk/_packaging/azure-sdk-dependencies/maven/v1</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+  </repositories>
+
   <distributionManagement>
     <snapshotRepository>
       <id>ossrh</id>
