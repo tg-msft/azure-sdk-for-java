@@ -42,3 +42,4 @@ com.azure.storage.file
 com.azure.storage.file.models
 com.azure.storage.queue
 com.azure.storage.queue.models
+com.azure.tracing.opentelemetry
