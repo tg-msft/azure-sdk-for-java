@@ -35,6 +35,7 @@ com.azure.security.keyvault.secrets
 com.azure.security.keyvault.secrets.models
 com.azure.storage.blob
 com.azure.storage.blob.models
+com.azure.storage.common
 com.azure.storage.common.credentials
 com.azure.storage.common.exception
 com.azure.storage.common.policy
